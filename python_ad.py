@@ -6,7 +6,7 @@ df2 =pd.read_csv('task2.csv')
 arr5 = df2["emp salary"].values
 data1  = np.random.randint(100, size = arr5.shape)
 
-combined_array = np.vstack((arr5, data1))
+combined_array = np.vstack(arr5, data1)
 variance_per_column = np.var(combined_array, axis=1)
 variance_per_row = np.var(combined_array, axis=0)
 # combined_array = np.concatenate((arr5,data1))

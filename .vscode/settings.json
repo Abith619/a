@@ -1,4 +1,73 @@
 {
     "cmake.sourceDirectory": "F:/setuptools-main/launcher",
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.enablePytestSupport": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.fixAll": ["source.convertImportFormat", "source.unusedImports"],
+    "python.analysis.autoSearchPathsMode": "advanced",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.useLibraryCodeForTypesMode": true,
+    "python.analysis.reportMissingImports": true,
+    "python.analysis.reportUnusedImport": true,
+    "python.analysis.reportUnusedVariables": true,
+    "python.analysis.reportUndefinedVariables": true,
+    "python.analysis.reportUnboundLocalVariables": true,
+    "python.analysis.include": ["**", "**/*.py", "H:/Intel-Py/include", "H:/Py3.11/include",
+                                "F:/Python/include", "F:/cpython-main/Include",
+                                ],
+    "python.autoComplete.extraPaths": ["**", "**/*.py", "H:/Intel-Py/Lib/site-packages", "H:/Py3.11/Lib/site-packages",
+                                "F:/Python/Lib/site-packages",],
+    "python.defaultInterpreterPath": "H:/Py3.11/include/python.exe",
+    "python.experiments.enabled": true,
+    "python.globalModuleInstallation": true,
+    "python.poetryPath": "F:/poetry-main/poetry-main/src/poetry",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "H:/Py3.11/WPy64-31180/python-3.11.8.amd64/Scripts",
+    "[cmake]": {
+        "workbench.editor.languageDetection": true,
+        "workbench.editor.restoreViewState": true,
+        "editor.wordBasedSuggestions": "allDocuments",
+        "editor.inlineSuggest.suppressSuggestions": true,
+        "cSpell.showAutocompleteSuggestions": true,
+        "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+        "editor.screenReaderAnnounceInlineSuggestion": true,
+        "tailwindCSS.suggestions": true,
+        "tailwindCSS.codeActions": true,
+        "editor.suggest.insertMode": "insert",
+        "editor.suggest.preview": true,
+    },
+    "[python]": {
+        "cSpell.showAutocompleteSuggestions": true,
+        "diffEditor.diffAlgorithm": "advanced",
+        "editor.parameterHints.enabled": true,
+        "editor.suggest.insertMode": "insert",
+        "editor.suggest.preview": true,
+        "editor.screenReaderAnnounceInlineSuggestion": true,
+        "workbench.editor.languageDetection": true,
+        "workbench.editor.restoreViewState": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "allDocuments",
+        "editor.inlineSuggest.suppressSuggestions": true,
+    },
+    "python.analysis.extraPaths": [
+        "**",
+        "**/*.py",
+        "H:/Intel-Py/Lib/site-packages",
+        "H:/Py3.11/Lib/site-packages",
+        "F:/Python/Lib/site-packages"
+    ],
+    "gitlens.heatmap.locations": [
+        "gutter",
+        "overview",
+        "line"
+    ],
+    "cSpell.enableFiletypes": [
+        "jsonc"
+    ]
 }
